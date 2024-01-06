@@ -18,7 +18,7 @@ app.use(cors())
 
 mongoose
     .connect(
-        "mongodb+srv://admin:KD8rdijHu71gCO4Z@cluster0.na3zxat.mongodb.net/?retryWrites=true&w=majority"
+        "Add You MongoDb Url"
     )
     .then(() => {
         app.listen(5000);
